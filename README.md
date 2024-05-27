@@ -34,8 +34,9 @@ malloc, free, write
 | putchar_fd | Outputs the character to the given file descriptor. |
 | putstr_fd | Outputs the string to the given file descriptor  |
 | putendl_fd | Outputs the string to the given file descriptor, followed by a new line. |
-| putnbr_fd | Outputs the integer to the given file descriptor. |
-3. Additional function for working with lists. (bonus part)
+| putnbr_fd | Outputs the integer to the given file descriptor.
+
+3. Additional function for working with lists.
 
 | Function's name | Description|
 |:---:|---|
@@ -52,9 +53,8 @@ malloc, free, write
 ## Usage
 #### Create library: 
 ```bash
-make bonus
+make
 ```
-_(``make`` is also working, but there are no bonus functions in the library.)_<br /><br />
 Remove \*.o files: `` make clean ``<br />
 Remove \*.o and \*.a files: ``make fclean``<br />
 
