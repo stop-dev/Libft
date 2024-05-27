@@ -69,7 +69,7 @@ gcc main.c libft.a
 ```
 ### Main tamplate:
 ```c
-#include "ft_libft.h"
+#include "libft.h"
 
 int main()
 {
