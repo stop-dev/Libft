@@ -35,7 +35,7 @@ malloc, free, write
 | putstr_fd | Outputs the string to the given file descriptor  |
 | putendl_fd | Outputs the string to the given file descriptor, followed by a new line. |
 | putnbr_fd | Outputs the integer to the given file descriptor. |
-3. Additional function for working with lists.
+3. Additional function for working with lists. (bonus part)
 
 | Function's name | Description|
 |:---:|---|
@@ -50,9 +50,13 @@ malloc, free, write
 | lstmap | Iterates the list and applies the functions ‘f’ to the content of each element. Creates a new list resulting. The ‘del’ function is delete the content of an element if needed. Returns the new list. NULL if the allocation fails.
 
 ## Usage
-Create library: ``make bonus``<br />
-Remove \*.o files: ``make clean``<br />
-Remove \*.o and \*.a files: ``make fclean``
+#### Create library: 
+```bash
+make bonus
+```
+_(``make`` is also working, but there are no bonus functions in the library.)_<br /><br />
+Remove \*.o files: `` make clean ``<br />
+Remove \*.o and \*.a files: ``make fclean``<br />
 
 ### Compilation
 Create ``main.c`` file and compile:
